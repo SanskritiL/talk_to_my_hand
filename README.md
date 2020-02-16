@@ -1,9 +1,9 @@
-# Web application for recognizing hand gestures to help mute and hard of hearing people communicate with everyone
+# Web application for recognizing sign language hand gestures
 
-## Dependencies:
-Tensorflow
-Keras
-OpenCV
+## Dependencies for hand gesture recognition:
+- keras==2.2.5
+- tensorflow==1.14
+- OpenCV
 
 ## Dataset:
 https://www.kaggle.com/datamunge/sign-language-mnist
