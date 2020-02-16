@@ -6,7 +6,7 @@
 - OpenCV
 
 ## Dataset:
-https://www.kaggle.com/datamunge/sign-language-mnist
+Download train.csv and test.csv from https://www.kaggle.com/datamunge/sign-language-mnist
 
 ## How to Upload a File to a Server in PHP
 [View Tutorial](https://www.taniarascia.com/how-to-upload-files-to-a-server-with-plain-javascript-and-php)
