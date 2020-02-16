@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Upload Files</title>
+    <title>Talk to my hand</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body class="main">
+    <h1>TreeHacks2020</h1>
+
+    <img src="./logo.png" alt="Paris" class="center">
+
+    <form method="post" enctype="multipart/form-data">
+        <input id="choose" type="file" name="files[]" multiple>
+        <input id= "upload" type="submit" value="Upload File" name="submit">
+    </form>
+
+    <div id="answer">
+        <textarea id="text-translate" rows="7" cols="50" name="comment" form="usrform" placeholder="Interpreting.."></textarea>
+      <br></br>
+            <button class="translateFrom" onclick="toEnglish()" >English</button>
+            <button class="translateTo" onclick="toSpanish()">Spanish</button>
+            <button onclick="clearDOM()">Clear</button>
+        </div>
+       
+   
+    <script src="upload.js"></script>
+    <script>
+      function clearDOM(){
+          console.log("clickedc")
+        var myTag = document.getElementById("text-translate");
+        localStorage.clear();
+
+        myTag.innerText=""
+      }
+      
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+.main{
+    background-color:rgb(194, 167, 194);
+    height:100vh;
+}
+input{
+    padding:10px;
+    border: 2px solid black;
+    background-color: rgb(70, 50, 70);
+    color:white;
+    border-radius: 50px 50px 50px 50px;
+    opacity:0.9;
+
+
+}
+
+input:hover{
+   opacity:1;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+ #choose{
+     margin: 20px 0px 0px 25rem;
+
+ } 
+ #upload{
+     margin-left:5px;
+ }
+ #answer{
+     
+     margin: 20px 0px 0px 25rem;
+ }
+ .translateTo{
+    border: 2px solid rgb(70, 50, 70);
+    border-radius: 5px 5px 5px 5px;
+ }
+ .translateFrom{
+    background-color: rgb(70, 50, 70);
+    border: 2px solid rgb(70, 50, 70);
+    color:white;
+    border-radius: 5px 5px 5px 5px;
+ }
