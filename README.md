@@ -1,5 +1,5 @@
 # Web application for recognizing sign language hand gestures
-
+A minimum viable product to replace interpretors of sign language built during Treehacks 2020, Stanford University. Includes text to speech capabilities and support for speech in multiple languages. 
 ## Dependencies for hand gesture recognition:
 - keras==2.2.5
 - tensorflow==1.14
